@@ -10,10 +10,10 @@ body{
 }
 .maindiv {
     background-image: url("img/Stinky\ Cover\ with\ Text.jpg");
-    width: 100vw;
+    width: 100%;
     height: 100vh; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;     
+    background-repeat:no-repeat;
+    background-size: 100% 100%;   
 }
 .imgdiv {
     background-image: url("img/Stinky 12.2.jpg");
@@ -21,6 +21,7 @@ body{
     height: 100vh; 
     background-repeat: no-repeat;
     background-size: 100% 50%;
+    
 
 }
 .charimgdiv {
@@ -35,9 +36,11 @@ body{
 .actimgdiv {
     background-image: url("img/Stinky\ back\ cover.jpg");
     width: 100vw;
-    height: 100vh; 
+    height: 60vh; 
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-position: center;
+    background-size: 100% 100%;
+    
 
 }
 .acttest {
@@ -45,14 +48,32 @@ body{
 }
 .activitymaindiv {
     background-color: rgb(200, 237, 64);
-    height: 120%;
    
 }
 .actcarddiv {
-    margin-top: -40vh;
+    margin-top: 8vh;
+    padding-bottom: 5%;;
 }
 .actcarddiv > .card-deck {
     padding-top: 2vh;
+}
+.actimga {
+    width: 100%;
+    height: 100%;
+    margin-top: -12%;
+    outline: none;
+}
+.actimga:hover {
+    color: rgb(58, 159, 214)
+    text-decoration: none;
+}
+a:hover {
+        outline: none;
+        text-decoration: none;
+    }
+
+.acth5 {
+padding-top: 3%;
 }
 .imgdiv > h1 {
 padding-top: 28vh;
@@ -62,7 +83,7 @@ padding-top: 28vh;
     color: white;
 }
 .actimgdiv > h1 {
-    padding-top: 50vh;
+    padding-top: 60vh;
     color: rgb(58, 159, 214)
     
     }
@@ -109,10 +130,18 @@ a {
     white-space: nowrap;
     background-color: black;
 }
+
 .card {
     white-space: pre-wrap;
     height: 50vh;
     background-color: black; 
+    color: rgb(235, 195, 52);
+
+}
+.actcard {
+    white-space: pre-wrap;
+    height: 50vh;
+    background-color: rgb(58, 159, 214);
     color: rgb(235, 195, 52);
 
 }
@@ -180,9 +209,17 @@ footer {
     background:url("http://i.imgur.com/zFWft.png") no-repeat scroll center 0 transparent;
     
 }
+.double {
+    padding-top:60px;
+    padding-bottom:20px;
+
+}
 .buybooks {
     margin-bottom: -10%;
     color: rgb(173, 57, 150);
+}
+.charsecdiv {
+    margin-top:-8%;
 }
 
 /* About Page divs */
@@ -219,6 +256,7 @@ footer {
     font-weight: bold;
     opacity: 1; !important
 }
+
 .katediv{
     background-image: url("img/Lucy\ 9_color\ adjusted.jpg");
     border: black solid 2px;
@@ -320,9 +358,9 @@ footer {
     opacity: 1; !important
 }
 .megandiv{
-    background-image: url("img/Faith\ Counts.jpg");
+    background-image: url("img/J.jpg");
     border: black solid 2px;
-    width: 100vw;
+    width: 100%;
     height: 70vh; 
     background-size: 100% 100%;
     background-repeat: no-repeat; 
