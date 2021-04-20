@@ -5,18 +5,25 @@ body{
     height: 100%;
     
 }
+.bookslistdiv {
+    margin-top: 9%;
+}
 .bookbody {
     background-color: black;
 }
 .maindiv {
-    background-image: url("img/Stinky\ Cover\ with\ Text.jpg");
+    background-image: url("img/Updates/ILYWYS\ home\ page\ Banner.jpg");
     width: 100%;
     height: 100vh; 
     background-repeat:no-repeat;
     background-size: 100% 100%;   
 }
+.booksmaindiv > .imagediv {
+    padding-bottom: 2%;
+
+}
 .imgdiv {
-    background-image: url("img/Stinky 12.2.jpg");
+    background-image: url("img/Updates/books\ page\ banner.jpg");
     width: 100vw;
     height: 100vh; 
     background-repeat: no-repeat;
@@ -24,17 +31,30 @@ body{
     
 
 }
+.charmaindiv {
+height: 70vh;
+width: 100vw;
+}
 .charimgdiv {
     background-image: url("img/Kissy\ Pg3_noText_flipped.jpg");
-    width: 100vw;
-    height: 90vh; 
+    width: 120vw;
+    height: 80vh; 
     background-repeat: no-repeat;
     background-size: 100% 50%;
+}
 
+.charcard {
+    width: 100%;
+    height: 50%;
+}
+.rounded-circle, .charimg {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
 }
 
 .actimgdiv {
-    background-image: url("img/Stinky\ back\ cover.jpg");
+    background-image: url("img/Updates/activities\ page\ banner.jpg");
     width: 100vw;
     height: 60vh; 
     background-repeat: no-repeat;
@@ -42,6 +62,9 @@ body{
     background-size: 100% 100%;
     
 
+}
+.actimg {
+ margin-top: 5%;
 }
 .acttest {
     padding-top: 10vh;
@@ -52,7 +75,8 @@ body{
 }
 .actcarddiv {
     margin-top: 8vh;
-    padding-bottom: 5%;;
+    padding-bottom: 5%;
+  
 }
 .actcarddiv > .card-deck {
     padding-top: 2vh;
@@ -73,10 +97,10 @@ a:hover {
     }
 
 .acth5 {
-padding-top: 3%;
+padding-top: 30%;
 }
 .imgdiv > h1 {
-padding-top: 28vh;
+padding-top: 45vh;
 }
 .charimgdiv > h1 {
     padding-top: 45vh;
@@ -134,17 +158,20 @@ a {
 .card {
     white-space: pre-wrap;
     height: 50vh;
+    width: auto;
     background-color: black; 
     color: rgb(235, 195, 52);
 
 }
-.actcard {
-    white-space: pre-wrap;
-    height: 50vh;
-    background-color: rgb(58, 159, 214);
-    color: rgb(235, 195, 52);
+.act-card-deck{
+padding-bottom: 5%;
 
 }
+.actcard {
+    white-space: pre-wrap;
+    height: 100vh;
+}
+
 .card-body {
     height: 1vh;
     margin-top:-20%;
@@ -160,10 +187,11 @@ width: 10%;
 .topnav
 {
     background-color: rgb(58, 159, 214);
-    height: 10vh;    
+    height: 12vh;    
 }
 .topnav a {
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 .hfoot{
     margin-top: -.5%;
@@ -225,31 +253,30 @@ footer {
 /* About Page divs */
 
 .megtextcontainer {
-    background-color: rgb(58, 159, 214, .5);
-    height: 40vh;
+    background-color: rgb(58, 159, 214, .7);
+    height: 50vh;
     width: 40vw;
-    height: 55vh;
     margin-top: 5vh;
    
 }
 .megdiv{
-    background-image: url("img/Poop\ 2.jpg");
+    background-image: url("img/Updates/meg\ deboe_bio\ banner.jpg");
+    border: black solid 2px;
     width: 100vw;
     height: 70vh; 
     background-size: 100% 100%;
     background-repeat: no-repeat; 
-    padding-top: 10%;
   
 }
 .megimg {
     margin-left: 10%;
-    margin-top: -4vh;
+    margin-top: 6vh;
     width: 30vw;
     height: 50vh;
 }
 .megtext {
     margin-right: 10%;
-    margin-top: -4vh;
+    margin-top: 4vh;
     width: 40vw;
     color: black;
     font-style: normal;
@@ -258,7 +285,7 @@ footer {
 }
 
 .katediv{
-    background-image: url("img/Lucy\ 9_color\ adjusted.jpg");
+    background-image: url("img/Updates/kate\ neel_bio\ banner.jpg");
     border: black solid 2px;
     width: 100vw;
     height: 70vh; 
@@ -268,9 +295,8 @@ footer {
 }
 .katetextcontainer {
     background-color: rgb(58, 159, 214, .7);
-    height: 50vh;
-    width: 40vw;
     height: 40vh;
+    width: 40vw;
     margin-top: 5vh;
    
 }
@@ -291,7 +317,7 @@ footer {
     opacity: 1; !important
 }
 .kevindiv{
-    background-image: url("img/Stinky\ 11.7.jpg");
+    background-image: url("img/Updates/kevin\ alvir_bio\ banner.jpg");
     border: black solid 2px;
     width: 100vw;
     height: 70vh; 
@@ -325,7 +351,7 @@ footer {
 }
 
 .patdiv{
-    background-image: url("img/Kissy\ Pg6_scar.jpg");
+    background-image: url("img/Updates/patrick\ etienne_bio\ banner.jpg");
     border: black solid 2px;
     width: 100vw;
     height: 70vh; 
@@ -337,9 +363,12 @@ footer {
     background-color: rgb(58, 159, 214, .5);
     height: 55vh;
     width: 40vw;
-    height: 58vh;
     margin-top: 5vh;
    
+}
+.bookimg {
+    width: 300px;
+    height: 300px;
 }
 
 .patimg {
@@ -358,12 +387,12 @@ footer {
     opacity: 1; !important
 }
 .megandiv{
-    background-image: url("img/J.jpg");
+    background-image: url("img/Updates/megan\ nolton_bio\ banner.jpg");
     border: black solid 2px;
-    width: 100%;
+    width: 100vw;
     height: 70vh; 
     background-size: 100% 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;  
 
 }
 .megantextcontainer {
