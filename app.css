@@ -7,6 +7,7 @@ body{
 }
 .bookslistdiv {
     margin-top: 9%;
+    padding-bottom: 5%;
 }
 .bookbody {
     background-color: black;
@@ -21,6 +22,9 @@ body{
 .booksmaindiv > .imagediv {
     padding-bottom: 2%;
 
+}
+.longtitle {
+    padding-bottom: 6%;
 }
 .imgdiv {
     background-image: url("img/Updates/books\ page\ banner.jpg");
