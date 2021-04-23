@@ -313,7 +313,7 @@ footer {
 /* About Page divs */
 
 .megtextcontainer {
-    background-color: rgb(58, 159, 214, .7);
+
     height: 50vh;
     width: 40vw;
     margin-top: 5vh;
@@ -323,7 +323,7 @@ footer {
     background-image: url("img/Updates/meg\ deboe_bio\ banner.jpg");
     border: black solid 2px;
     width: 100vw;
-    height: 70vh; 
+    height: 70vh;
     background-size: 100% 100%;
     background-repeat: no-repeat; 
   
@@ -337,11 +337,18 @@ footer {
 .megtext {
     margin-right: 10%;
     margin-top: 4vh;
-    width: 40vw;
+    width: 50vw;
     color: black;
     font-style: normal;
     font-weight: bold;
+    background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.megtextbody {
+    background-color: rgb(58, 159, 214, .7);
+
 }
 
 .katediv{
@@ -374,6 +381,7 @@ footer {
     color: black;
     font-style: normal;
     font-weight: bold;
+    background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
 }
 .kevindiv{
@@ -393,13 +401,7 @@ footer {
     margin-top: 7vh;
    
 }
-@media only screen and (max-width: 576px) {
-    .carousel-caption {
-        h5 {
-            font-size: 1rem;
-        }
-    }
-}
+
 
 .kevinimg {
     margin-left: 10%;
@@ -414,6 +416,7 @@ footer {
     color: black;
     font-style: normal;
     font-weight: bold;
+    background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
 }
 
@@ -421,7 +424,7 @@ footer {
     background-image: url("img/Updates/patrick\ etienne_bio\ banner.jpg");
     border: black solid 2px;
     width: 100vw;
-    height: 70vh; 
+    height: 70vh;
     background-size: 100% 100%;
     background-repeat: no-repeat; 
 
@@ -454,6 +457,7 @@ footer {
     color: black;
     font-style: normal;
     font-weight: bold;
+    background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
 }
 .megandiv{
@@ -487,6 +491,7 @@ footer {
     color: black;
     font-style: normal;
     font-weight: bold;
+    background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
 }
 
@@ -585,3 +590,28 @@ padding-left: 10%;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }
+
+@media only screen and (max-width: 576px) {
+    .patdiv {
+        width: 100vw;
+        height: 90vh;
+     }
+   .carousel-inner {
+    margin-top: 2%;
+   }
+ 
+}
+@media only screen and (max-width: 576px) {
+ .megdiv {
+    width: 100vw;
+    height: 80vh;
+   
+
+ }
+ .carousel {
+    width: 500px;
+    height: 500px;
+    margin-top: -350px;
+    margin-bottom: 150px;
+}
+}
