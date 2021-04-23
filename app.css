@@ -266,8 +266,9 @@ footer {
 }
 .fa {
     padding-top:1%;
-    font-size: 30px;
-    width: 50px;
+    font-size: 55px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     text-decoration: none;
   }
