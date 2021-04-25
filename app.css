@@ -5,6 +5,12 @@ body{
     height: 100%;
     
 }
+.navbar-toggler{
+    background-color: rgb(235, 195, 52);
+}
+.navbar {
+    margin-left: 10%;
+}
 .bookslistdiv {
     margin-top: 9%;
     padding-bottom: 5%;
@@ -27,9 +33,10 @@ body{
 .maindiv {
     background-image: url("img/Updates/ILYWYS\ home\ page\ Banner.jpg");
     width: 100%;
-    height: 100vh; 
+    height: 85vh; 
     background-repeat:no-repeat;
-    background-size: 100% 100%;   
+    background-size: 100% 100%;
+    padding-bottom:2px;
 }
 .booksmaindiv > .imagediv {
     padding-bottom: 2%;
@@ -90,6 +97,7 @@ width: 100vw;
     
 
 }
+
 .actimg {
  margin-top: 5%;
 }
@@ -98,6 +106,7 @@ width: 100vw;
 }
 .activitymaindiv {
     background-color: rgb(200, 237, 64);
+    width: 100%
    
 }
 .actcarddiv {
@@ -135,7 +144,7 @@ padding-top: 45vh;
 }
 .actimgdiv > h1 {
     padding-top: 60vh;
-    color: rgb(58, 159, 214)
+    color: rgb(58, 159, 214);
     
     }
 .charname, .maincharname {
@@ -164,11 +173,13 @@ padding-top: 45vh;
 }
 .navbar-nav {
     background-color: rgb(58, 159, 214);
-    margin-left:-20px;
+    margin-left: 350px;
+    font-size: 20px;
 
 }
 .nav {
     background-color: rgb(58, 159, 214);
+    width: 100%
 }
 .nav ul {
     
@@ -178,9 +189,8 @@ padding-top: 45vh;
    
 }
 .name, .navbar-text {
-    padding-top: 20%;
-    margin-right: 23%;
     color: rgb(235, 195, 52);
+    font-size: 40px;
 }
 .footer-text {
     padding-top: 1%;
@@ -271,16 +281,13 @@ width: 10%;
 .topnav, .navbar, header
 {
     background-color: rgb(58, 159, 214);
-    height: 12vh;    
+       
 }
 .topnav a, .nan-link, .nav-item {
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.hfoot{
-    margin-top: -.5%;
 
-}
 footer {
     background-color: rgb(58, 159, 214);
     color: rgb(235, 195, 52);
@@ -297,6 +304,13 @@ footer {
     font-size: 27px;
     width: 10px;
     height: 10px;
+   
+  }
+
+  .nav > .hfoot {
+    padding-top:1px;
+    font-size: 27px;
+
    
   }
 
@@ -344,6 +358,7 @@ footer {
     background:url("http://i.imgur.com/zFWft.png") no-repeat scroll center 0 transparent;
     
 }
+
 .chartest{
     width: 15rem;
     width: 100%;
@@ -556,13 +571,16 @@ footer {
     opacity: 1; !important
 }
 
+    
 /*scrollbars*/
 
 
 
 /* Range Slider Start*/
-
-
+header {
+position: relative;
+z-index: 10000;
+}
 
 
 
@@ -629,6 +647,9 @@ footer {
 font-size: 5vh;
 padding-left: 10%;
 }
+body {
+    width: 100%;
+}
 @media (min-width: 34em) {
    
 }
@@ -656,29 +677,7 @@ padding-left: 10%;
 
 }
 @media (min-width: 768px) {
-    .navbar .navbar-header {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 200px;
-    }
   
-    .navbar  {
-      width: 100%;
-      padding-left: 100px;
-    }
-  
-    .navbar .navbar-nav {
-      width: 100%;
-    }
-  
-    .wider-text {
-        width: 30%;
-        white-space: nowrap;
-        
-        
-        
-    }
 
   }
 /* Extra small devices (phones, less than 768px) */
@@ -686,131 +685,11 @@ padding-left: 10%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { 
-    .navbar .navbar-header {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 200px;
-    }
-  
-    .navbar  {
-      width: 100%;
-      padding-left: 100px;
-    }
-    .navbar-brand{
-        margin-top:1px;
 
-    }
-    .nav {
-        width: 95%;
-        white-space: nowrap;
-    }
-  
-    .navbar .navbar-nav {
-      width: 100%;
-    }
-  
-    .wider-text {
-        width: 30%;
-        white-space: nowrap;
-        
-        
-        
-    }
-    .navbar .nav > li{
-        padding-left:-3px;
-        padding-right:-3px;
-        margin-left:-3px;
-        margin-right:-3px;
-        overflow: hidden;
-       
-      }
-    .name {
-        text-align: center;
-        margin-left: 45%;
-    }
-    .nav > li{
-        padding-left:10px;
-        padding-right:10px;
-      }
  }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { 
-    .navbar .navbar-header {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 200px;
-        background-color: rgb(58, 159, 214);
-    }
-  
-    .navbar .nav > li{
-        padding-left:30px;
-        padding-right:30px;
-        color: red;
-      }
-      .navbar .nav > li{
-        padding-left:-3px;
-        padding-right:-3px;
-        margin-left:-3px;
-        margin-right:-3px;
-        overflow: hidden;
-       
-      }
-      .navbar-brand{
-        margin-top:1px;
-
-    }
-
-    .nav {
-        width: 95%;
-        white-space: nowrap;
-    }
-  
-    .navbar .navbar-nav {
-      width: 100%;
-    }
-  
-    .wider-text {
-        width: 30%;
-        white-space: nowrap;
-        
-        
-        
-    }
-    .navbar .nav > li{
-        padding-left:-3px;
-        padding-right:-3px;
-        margin-left:2px;
-        margin-right:-3px;
-        margin-top: -30px;
-        padding-top: 20px;
-       
-      }
-      .navbar {
-        background-color: rgb(58, 159, 214);
-        height: 120px;
-        
-      }
-      .navbar .navbar-brand {
-          margin-top: -20px;
-          margin-left: 95px;
-      }
- 
-    .navbar {
-        background-color: rgb(58, 159, 214);
-        height: 110px;
-        padding-top: 20px;
-      }
-    .name {
-        text-align: center;
-        margin-left: 45%;
-    }
-    .nav > li{
-        padding-left:10px;
-        padding-right:10px;
-      }
       .charname, .maincharname{
         margin-top: 35px;
         
@@ -844,35 +723,10 @@ padding-left: 10%;
     margin-top: -350px;
     margin-bottom: 150px;
 }
-nav ul {
-    margin-left: -10px;
-}
-nav ul li {
-    padding-right: 1px;
-    padding-left: 1px;
-}
-.navbar .nav > li{
-    padding-left:-3px;
-    padding-right:-3px;
-    margin-left:2px;
-    margin-right:-3px;
-    margin-top: -30px;
-    
-   
-  }
   .charname, .maincharname{
     margin-top: 35px;
     
 }
-  .navbar {
-    background-color: rgb(58, 159, 214);
-    height: 110px;
-    padding-bottom: 20px;
-  }
-  .navbar .navbar-brand {
-      margin-top: -20px;
-      margin-left: 95px;
-  }
   
 }
 @media only screen and (max-width: 576px) {
