@@ -16,6 +16,9 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.charname {
+    padding-top:5%;
+}
 .bookbody {
     background-color: black;
     height: 100%;
@@ -62,6 +65,15 @@ width: 100vw;
     width: 100%;
     height: 50%;
 }
+.charcard{
+    width: 100%
+    }
+    
+    @media(max-width: 768px){
+    .charcard{
+    width: 100%;
+    }
+    }
 .rounded-circle, .charimg {
     width: 275px;
     height: 275px;
@@ -126,7 +138,7 @@ padding-top: 45vh;
     color: rgb(58, 159, 214)
     
     }
-.charname {
+.charname, .maincharname {
         color:white;
         margin-top: -1vh;
     }
@@ -152,8 +164,18 @@ padding-top: 45vh;
 }
 .navbar-nav {
     background-color: rgb(58, 159, 214);
-    z-index: 2;
+    margin-left:-20px;
 
+}
+.nav {
+    background-color: rgb(58, 159, 214);
+}
+.nav ul {
+    
+    width: 90%;
+}
+.nav ul li {
+   
 }
 .name, .navbar-text {
     padding-top: 20%;
@@ -165,13 +187,16 @@ padding-top: 45vh;
     margin-right: 1%;
     color: rgb(235, 195, 52);
 }
-.navbar-toggler {
-    background-color: rgb(235, 195, 52);
-}
+
 a {
     color: rgb(235, 195, 52);  
     
 }
+.nav ul li a {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
 .carousel {
     width: 500px;
     height: 500px;
@@ -264,14 +289,33 @@ footer {
     height: 30px;
     width: 100%;   
 }
-.fa {
-    padding-top:1%;
-    font-size: 55px;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    text-decoration: none;
+.nav > .fa {
+    padding-top:1px;
+    margin-left: 25px;
+    padding-left: 2px;
+    padding-right: 3px;
+    font-size: 27px;
+    width: 10px;
+    height: 10px;
+   
   }
+
+  .nav > .fa-amazon {
+    margin-left: 20px;
+    color: #3B5998;
+
+  }
+
+  .nav > .fa-wordpress{
+    margin-left: 35px;
+    color: #3B5998;
+
+  }
+.nav > .fa-amazon:hover, 
+.nav > .fa-wordpress:hover,
+.nav > .fa-facebook:hover {
+    color: rgb(235, 195, 52);
+}
   /* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
@@ -287,6 +331,9 @@ footer {
 .navimg {
     width: 1%;
 }
+.charcarddiv {
+    width: 100%;
+}
 .popup_div:hover:after{
     opacity: 1;
     right: 0;
@@ -297,6 +344,20 @@ footer {
     background:url("http://i.imgur.com/zFWft.png") no-repeat scroll center 0 transparent;
     
 }
+.chartest{
+    width: 15rem;
+    width: 100%;
+    height: 18rem;
+    }
+    
+    @media(max-width: 768px){
+    .chartest{
+    width: 10rem;
+    width: 100%;
+    height: 18rem;
+    }
+    }
+
 .double {
     padding-top:60px;
     padding-bottom:20px;
@@ -501,7 +562,8 @@ footer {
 
 /* Range Slider Start*/
 
- 
+
+
 
 
 /* The Modal (background) */
@@ -567,6 +629,21 @@ footer {
 font-size: 5vh;
 padding-left: 10%;
 }
+@media (min-width: 34em) {
+   
+}
+
+@media (min-width: 48em) {
+    
+}
+
+@media (min-width: 62em) {
+   
+}
+
+@media (min-width: 75em) {
+ 
+}
 
   
 /*Range SLider End*/
@@ -578,15 +655,167 @@ padding-left: 10%;
 @media (max-width: 1200px) {
 
 }
+@media (min-width: 768px) {
+    .navbar .navbar-header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+    }
+  
+    .navbar  {
+      width: 100%;
+      padding-left: 100px;
+    }
+  
+    .navbar .navbar-nav {
+      width: 100%;
+    }
+  
+    .wider-text {
+        width: 30%;
+        white-space: nowrap;
+        
+        
+        
+    }
 
+  }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width: @screen-sm-min) { 
+    .navbar .navbar-header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+    }
+  
+    .navbar  {
+      width: 100%;
+      padding-left: 100px;
+    }
+    .navbar-brand{
+        margin-top:1px;
+
+    }
+    .nav {
+        width: 95%;
+        white-space: nowrap;
+    }
+  
+    .navbar .navbar-nav {
+      width: 100%;
+    }
+  
+    .wider-text {
+        width: 30%;
+        white-space: nowrap;
+        
+        
+        
+    }
+    .navbar .nav > li{
+        padding-left:-3px;
+        padding-right:-3px;
+        margin-left:-3px;
+        margin-right:-3px;
+        overflow: hidden;
+       
+      }
+    .name {
+        text-align: center;
+        margin-left: 45%;
+    }
+    .nav > li{
+        padding-left:10px;
+        padding-right:10px;
+      }
+ }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (min-width: @screen-md-min) { 
+    .navbar .navbar-header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+        background-color: rgb(58, 159, 214);
+    }
+  
+    .navbar .nav > li{
+        padding-left:30px;
+        padding-right:30px;
+        color: red;
+      }
+      .navbar .nav > li{
+        padding-left:-3px;
+        padding-right:-3px;
+        margin-left:-3px;
+        margin-right:-3px;
+        overflow: hidden;
+       
+      }
+      .navbar-brand{
+        margin-top:1px;
+
+    }
+
+    .nav {
+        width: 95%;
+        white-space: nowrap;
+    }
+  
+    .navbar .navbar-nav {
+      width: 100%;
+    }
+  
+    .wider-text {
+        width: 30%;
+        white-space: nowrap;
+        
+        
+        
+    }
+    .navbar .nav > li{
+        padding-left:-3px;
+        padding-right:-3px;
+        margin-left:2px;
+        margin-right:-3px;
+        margin-top: -30px;
+        padding-top: 20px;
+       
+      }
+      .navbar {
+        background-color: rgb(58, 159, 214);
+        height: 120px;
+        
+      }
+      .navbar .navbar-brand {
+          margin-top: -20px;
+          margin-left: 95px;
+      }
+ 
+    .navbar {
+        background-color: rgb(58, 159, 214);
+        height: 110px;
+        padding-top: 20px;
+      }
+    .name {
+        text-align: center;
+        margin-left: 45%;
+    }
+    .nav > li{
+        padding-left:10px;
+        padding-right:10px;
+      }
+      .charname, .maincharname{
+        margin-top: 35px;
+        
+    }
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }
@@ -604,7 +833,8 @@ padding-left: 10%;
 @media only screen and (max-width: 576px) {
  .megdiv {
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
+    padding-top:5%;
    
 
  }
@@ -614,6 +844,36 @@ padding-left: 10%;
     margin-top: -350px;
     margin-bottom: 150px;
 }
+nav ul {
+    margin-left: -10px;
+}
+nav ul li {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+.navbar .nav > li{
+    padding-left:-3px;
+    padding-right:-3px;
+    margin-left:2px;
+    margin-right:-3px;
+    margin-top: -30px;
+    
+   
+  }
+  .charname, .maincharname{
+    margin-top: 35px;
+    
+}
+  .navbar {
+    background-color: rgb(58, 159, 214);
+    height: 110px;
+    padding-bottom: 20px;
+  }
+  .navbar .navbar-brand {
+      margin-top: -20px;
+      margin-left: 95px;
+  }
+  
 }
 @media only screen and (max-width: 576px) {
     .carousel-caption {
@@ -621,4 +881,11 @@ padding-left: 10%;
             font-size: 1rem;
         }
     }
+    
+}
+
+.char-card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: .5rem;
 }
