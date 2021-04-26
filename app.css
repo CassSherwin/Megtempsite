@@ -14,6 +14,8 @@ body{
 }
 .navbar {
     margin-left: 10%;
+    height: 100%;
+    width: 100%;
 }
 .bookslistdiv {
     margin-top: 9%;
@@ -53,7 +55,6 @@ body{
    /* background-image: url("img/Updates/books\ page\ banner.jpg");*/
     width: 100%;
     height: 95vh; 
-
     padding-bottom: 1.5%;
     
 
@@ -183,6 +184,7 @@ padding-top: 45vh;
     background-color: rgb(58, 159, 214);
     margin-left: 300px;
     font-size: 2.3vh;
+    font-size: 1.5vw;
 
 }
 .nav {
@@ -199,6 +201,7 @@ padding-top: 45vh;
 .name, .navbar-text {
     color: rgb(235, 195, 52);
     font-size: 7.69vh;
+    font-size: 7.69vw;
 }
 .footer-text {
     padding-top: 1%;
@@ -591,6 +594,7 @@ footer {
 header {
 position: relative;
 z-index: 10000;
+height: 10vh;
 }
 
 
@@ -706,14 +710,15 @@ body {
 
  
 }
-@media only screen and (min-device-width: 20px)  and (max-device-width: 991px)
+@media only screen and (min-device-width: 20px)  and (max-device-width: 991px){
     body {
        max-width: 100%;
        max-height: inherit;
+       position:fixed;
       
 
     }
-
+}
   
 /*Range SLider End*/
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
