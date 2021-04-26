@@ -8,7 +8,9 @@ body{
 .navbar-toggler{
     background-color: rgb(235, 195, 52);
     margin-bottom: 10px;
-    margin-left: 10px:;
+    margin-left: 1%;
+    height: 6vh;
+    width: 10vw;
 }
 .navbar {
     margin-left: 10%;
@@ -189,7 +191,7 @@ padding-top: 45vh;
 }
 .nav ul {
     
-    width: 90%;
+    width: 98%;
 }
 .nav ul li {
    
@@ -704,6 +706,13 @@ body {
 
  
 }
+@media only screen and (min-device-width: 20px)  and (max-device-width: 991px)
+    body {
+       max-width: 100%;
+       max-height: inherit;
+      
+
+    }
 
   
 /*Range SLider End*/
@@ -729,7 +738,7 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { 
-      .charname, .maincharname{
+      .charname, .maincharname, .booksmaindiv {
         margin-top: 35px;
         
     }
@@ -755,7 +764,7 @@ body {
 
  }
 
-  .charname, .maincharname{
+  .charname, .maincharname, .booksmaindiv {
     margin-top: 35px;
     
 }
