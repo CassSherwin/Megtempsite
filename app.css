@@ -7,6 +7,8 @@ body{
 }
 .navbar-toggler{
     background-color: rgb(235, 195, 52);
+    margin-bottom: 10px;
+    margin-left: 10px:;
 }
 .navbar {
     margin-left: 10%;
@@ -46,15 +48,18 @@ body{
     padding-bottom: 6%;
 }
 .imgdiv {
-    background-image: url("img/Updates/books\ page\ banner.jpg");
-    width: 100vw;
+   /* background-image: url("img/Updates/books\ page\ banner.jpg");*/
+    width: 100%;
     height: 95vh; 
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-    z-index: 2;
-    padding-bottom: 1.5px;
+
+    padding-bottom: 1.5%;
     
 
+}
+.imgtest {
+    width: 100%;
+    max-height: 40vh;
+    padding-bottom: 2%;
 }
 .charmaindiv {
 height: 70vh;
@@ -169,12 +174,13 @@ padding-top: 45vh;
     width: 100%;
     height: 100%;
     text-align: center;
-    padding-bottom: 50px;
+    
+
 }
 .navbar-nav {
     background-color: rgb(58, 159, 214);
-    margin-left: 350px;
-    font-size: 20px;
+    margin-left: 300px;
+    font-size: 2.3vh;
 
 }
 .nav {
@@ -190,7 +196,7 @@ padding-top: 45vh;
 }
 .name, .navbar-text {
     color: rgb(235, 195, 52);
-    font-size: 40px;
+    font-size: 7.69vh;
 }
 .footer-text {
     padding-top: 1%;
@@ -210,8 +216,9 @@ a {
 .carousel {
     width: 500px;
     height: 500px;
-    margin-top: -400px;
-    margin-bottom: 150px;
+    margin-top: -480px;
+    padding-bottom:5px;
+   
 }
 .carousel-caption {
     position: relative;
@@ -246,8 +253,9 @@ a {
     min-width: 90%;
 }
 .carousel-indicators {
-   margin-bottom: -75px;
-}
+    margin-bottom: -75px;
+ }
+
 
 .card {
     white-space: pre-wrap;
@@ -280,7 +288,8 @@ width: 10%;
 }
 .topnav, .navbar, header
 {
-    background-color: rgb(58, 159, 214);
+    width: 100%;
+    margin-left: 0px;
        
 }
 .topnav a, .nan-link, .nav-item {
@@ -651,18 +660,48 @@ body {
     width: 100%;
 }
 @media (min-width: 34em) {
-   
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 85vh;
+        padding-top:5%;
+       
+    
+     }
+     .carousel-indicators {
+
+    
+    }
 }
 
 @media (min-width: 48em) {
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 85vh;
+        padding-top:5%;
+       
     
+     }
+
 }
 
 @media (min-width: 62em) {
-   
+    .carousel-indicators {
+
+       
+    }
+
 }
 
 @media (min-width: 75em) {
+
  
 }
 
@@ -704,9 +743,7 @@ body {
         width: 100vw;
         height: 100vh;
      }
-   .carousel-inner {
-    margin-top: 2%;
-   }
+
  
 }
 @media only screen and (max-width: 576px) {
@@ -717,12 +754,7 @@ body {
    
 
  }
- .carousel {
-    width: 500px;
-    height: 500px;
-    margin-top: -350px;
-    margin-bottom: 150px;
-}
+
   .charname, .maincharname{
     margin-top: 35px;
     
