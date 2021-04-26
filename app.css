@@ -43,7 +43,7 @@ body{
 .maindiv {
     background-image: url("img/Updates/ILYWYS\ home\ page\ Banner.jpg");
     width: 100%;
-    height: 85vh; 
+    height: 90vh; 
     background-repeat:no-repeat;
     background-size: 100% 100%;
     padding-bottom:2px;
@@ -71,6 +71,7 @@ body{
 .charmaindiv {
 height: 70vh;
 width: 100vw;
+margin-top: 5%;
 }
 .charimgdiv {
     background-image: url("img/Kissy\ Pg3_noText_flipped.jpg");
@@ -431,7 +432,7 @@ footer {
 .megtext {
     margin-right: 5%;
     margin-top: 4vh;
-    width: 50vw;
+    width: 60vw;
     color: black;
     font-style: normal;
     font-weight: bold;
@@ -472,7 +473,7 @@ footer {
 .katetext {
     margin-right: 10%;
     margin-top: 4vh;
-    width: 40vw;
+    width: 50vw;
     color: black;
     font-style: normal;
     font-weight: bold;
@@ -508,7 +509,7 @@ footer {
 .kevintext {
     margin-right: 10%;
     margin-top: 4vh;
-    width: 40vw;
+    width: 50vw;
     color: black;
     font-style: normal;
     font-weight: bold;
@@ -551,7 +552,7 @@ footer {
 .pattext {
     margin-right: 10%;
     margin-top: 4vh;
-    width: 40vw;
+    width: 50vw;
     color: black;
     font-style: normal;
     font-weight: bold;
@@ -586,7 +587,7 @@ footer {
 .megantext {
     margin-right: 10%;
     margin-top: 4vh;
-    width: 40vw;
+    width: 50vw;
     color: black;
     font-style: normal;
     font-weight: bold;
@@ -669,8 +670,8 @@ height: 10vh;
     height: 12vh;    
 }
 .nametest { 
-font-size: 5vh;
-margin-left: 10%;
+ font-size: 5vh;
+ margin-left: 15%;
 }
 body {
     width: 100%;
@@ -691,6 +692,10 @@ body {
 
     
     }
+    .nametest { 
+        font-size: 5vh;
+        margin-left: 1%;
+        }
 }
 
 @media (min-width: 48em) {
@@ -705,6 +710,10 @@ body {
        
     
      }
+     .nametest { 
+        font-size: 5vh;
+        margin-left: 10%;
+        }
 
 }
 
@@ -720,15 +729,7 @@ body {
 
  
 }
-@media only screen and (min-device-width: 20px)  and (max-device-width: 991px){
-    body *{
-       max-width: 100%;
-       max-height: 100%;
-       
-      
 
-    }
-}
   
 /*Range SLider End*/
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
@@ -773,12 +774,7 @@ body {
 @media screen and (orientation:landscape)
 and (min-device-width: 319px) 
 and (max-device-width: 480px) {
-    body {
-   width: 100%;
-    }
-    body * {
-        width: 100%;
-    }
+
 }
 @media only screen and (max-width: 576px) {
  .megdiv {
