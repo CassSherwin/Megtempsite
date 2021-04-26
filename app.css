@@ -8,7 +8,7 @@ body{
 .navbar-toggler{
     background-color: rgb(235, 195, 52);
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 5%;
     height: 6vh;
     width: 10vw;
    
@@ -439,7 +439,7 @@ footer {
     opacity: 1; !important
     padding-bottom: 10px;
     padding-top: 10px;
-    display: inline-block;
+   
 }
 .megtextbody {
     background-color: rgb(58, 159, 214, .7);
@@ -478,7 +478,7 @@ footer {
     font-weight: bold;
     background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
-    display: inline-block;
+   
 }
 .kevindiv{
     background-image: url("img/Updates/kevin\ alvir_bio\ banner.jpg");
@@ -514,7 +514,7 @@ footer {
     font-weight: bold;
     background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
-    display: inline-block;
+
 }
 
 .patdiv{
@@ -557,7 +557,7 @@ footer {
     font-weight: bold;
     background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
-    display: inline-block;
+    padding-bottom: 2%;
 }
 .megandiv{
     background-image: url("img/Updates/megan\ nolton_bio\ banner.jpg");
@@ -592,7 +592,7 @@ footer {
     font-weight: bold;
     background-color: rgb(58, 159, 214, .7);
     opacity: 1; !important
-    display: inline-block;
+
 }
 
     
@@ -670,7 +670,7 @@ height: 10vh;
 }
 .nametest { 
 font-size: 5vh;
-padding-left: 10%;
+margin-left: 10%;
 }
 body {
     width: 100%;
