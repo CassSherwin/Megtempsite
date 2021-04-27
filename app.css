@@ -9,12 +9,9 @@ body{
     background-color: rgb(235, 195, 52);
     margin-top: 3%;
     margin-left: 3.5%;
-    height: 6vh;
-    width: 10vw;
-   
-    
+    height: 40px;
+    width: 60px;  
 }
-
 
 .navbar {
     margin-left: 10%;
@@ -855,7 +852,7 @@ and (max-device-width: 480px) {
         margin-left: 3%;
         }
         .carousel {
-            margin-top: -500px;
+            margin-top: -550px;
         
         }
 }
@@ -868,7 +865,7 @@ and (max-device-width: 480px) {
         margin-left: 3%;
         }
         .carousel {
-            margin-top: -500px;
+            margin-top: -550px;
         
         }
  
