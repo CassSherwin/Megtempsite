@@ -606,7 +606,9 @@ z-index: 10000;
 height: 10vh;
 }
 
-
+button {
+    width: 100%;
+}
 
 /* The Modal (background) */
 {
