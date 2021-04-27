@@ -205,8 +205,6 @@ padding-top: 45vh;
 }
 .name, .navbar-text {
     color: rgb(235, 195, 52);
-    font-size: 7.69vh;
-    font-size: 7.69vw;
 }
 .footer-text {
     padding-top: 1%;
@@ -670,7 +668,7 @@ height: 10vh;
     height: 12vh;    
 }
 .nametest { 
- font-size: 5vh;
+ font-size: 4.5vh;
  margin-left: 15%;
 }
 body {
@@ -761,7 +759,7 @@ body {
         height: 100vh;
      }
      .nametest { 
-        font-size: 5vh;
+        font-size: 4vh;
         margin-left: 3%;
         }
            .carousel {
@@ -789,7 +787,7 @@ and (max-device-width: 480px) {
 
  }
  .nametest { 
-    font-size: 5vh;
+    font-size: 4vh;
     margin-left: 3%;
     }
 
@@ -852,7 +850,7 @@ and (max-device-width: 480px) {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .nametest { 
-        font-size: 5vh;
+        font-size: 4vh;
         margin-left: 3%;
         }
 }
@@ -861,7 +859,11 @@ and (max-device-width: 480px) {
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 4) {
     .nametest { 
-        font-size: 5vh;
+        font-size: 4vh;
         margin-left: 3%;
+        }
+        .carousel {
+            margin-top: -100px;
+        
         }
 }
