@@ -226,7 +226,7 @@ a {
 .carousel {
     width: 500px;
     height: 500px;
-    margin-top: -500px;
+    margin-top: -525px;
     padding-bottom:5px;
    
 }
@@ -688,10 +688,7 @@ body {
        
     
      }
-     .carousel-indicators {
-
-    
-    }
+  
  
 }
 
@@ -707,6 +704,7 @@ body {
        
     
      }
+  
     
 
 }
@@ -748,7 +746,7 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { 
-      .charname, .maincharname, .booksmaindiv {
+      .charname, .maincharname {
         margin-top: 35px;
         
     }
@@ -764,8 +762,17 @@ body {
      }
      .nametest { 
         font-size: 5vh;
-        margin-left: 10%;
+        margin-left: 3%;
         }
+           .carousel {
+        margin-top: -350px;
+    
+    }
+    .booksmaindiv {
+        margin-top: 5px;
+        
+    }
+     
  
 }
 @media screen and (orientation:landscape)
@@ -783,12 +790,20 @@ and (max-device-width: 480px) {
  }
  .nametest { 
     font-size: 5vh;
-    margin-left: 10%;
+    margin-left: 3%;
     }
 
-  .charname, .maincharname, .booksmaindiv {
+  .charname, .maincharname {
     margin-top: 35px;
     
+}
+.booksmaindiv {
+    margin-top: 5px;
+    
+}
+.carousel {
+    margin-top: -350px;
+
 }
   
 }
