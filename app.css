@@ -692,10 +692,7 @@ body {
 
     
     }
-    .nametest { 
-        font-size: 5vh;
-        margin-left: 1%;
-        }
+ 
 }
 
 @media (min-width: 48em) {
@@ -710,10 +707,7 @@ body {
        
     
      }
-     .nametest { 
-        font-size: 5vh;
-        margin-left: 10%;
-        }
+    
 
 }
 
@@ -768,7 +762,10 @@ body {
         width: 100vw;
         height: 100vh;
      }
-
+     .nametest { 
+        font-size: 5vh;
+        margin-left: 10%;
+        }
  
 }
 @media screen and (orientation:landscape)
@@ -784,6 +781,10 @@ and (max-device-width: 480px) {
    
 
  }
+ .nametest { 
+    font-size: 5vh;
+    margin-left: 10%;
+    }
 
   .charname, .maincharname, .booksmaindiv {
     margin-top: 35px;
