@@ -768,6 +768,9 @@ body {
         margin-top: 5px;
         
     }
+    .navbar-nav {
+        background-color: rgb(58, 159, 214);
+    }
      
  
 }
@@ -800,6 +803,9 @@ and (max-device-width: 480px) {
 .carousel {
     margin-top: -350px;
 
+}
+.navbar-nav {
+    background-color: rgb(58, 159, 214);
 }
   
 }
@@ -862,6 +868,9 @@ and (max-device-width: 480px) {
             margin-top: -550px;
         
         }
+        .navbar-nav {
+            background-color: rgb(58, 159, 214);
+        }
 }
 @media screen 
   and (device-width: 360px) 
@@ -876,6 +885,9 @@ and (max-device-width: 480px) {
             height: 300px;
             margin-top: -600px;
             padding-bottom: 5px;
+        }
+        .navbar-nav {
+            background-color: rgb(58, 159, 214);
         }
      
 }
