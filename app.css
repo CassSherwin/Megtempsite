@@ -183,7 +183,7 @@ padding-top: 45vh;
 
 }
 .navbar-nav {
-   
+    
     margin-left: 300px;
     font-size: 20px;
     width: 100%;
@@ -829,6 +829,9 @@ and (max-device-width: 480px) {
     body > * {
         width: 100%;
     }
+    .carousel {
+        margin-top: 400px;
+        padding-bottom: 5px;
 }
 @media screen 
   and (device-width: 360px) 
@@ -840,6 +843,10 @@ and (max-device-width: 480px) {
     }
     body > * {
         width: 100%;
+    }
+    .carousel {
+        margin-top: 400px;
+        padding-bottom: 5px;
     }
 }
 @media only screen 
@@ -869,7 +876,6 @@ and (max-device-width: 480px) {
             height: 300px;
             margin-top: -600px;
             padding-bottom: 5px;
-        
         }
- 
+     
 }
