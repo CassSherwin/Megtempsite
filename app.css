@@ -865,7 +865,10 @@ and (max-device-width: 480px) {
         margin-left: 3%;
         }
         .carousel {
-            margin-top: -550px;
+            width: 300px;
+            height: 300px;
+            margin-top: -600px;
+            padding-bottom: 5px;
         
         }
  
