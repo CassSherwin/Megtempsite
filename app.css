@@ -853,6 +853,10 @@ and (max-device-width: 480px) {
         font-size: 4vh;
         margin-left: 3%;
         }
+        .carousel {
+            margin-top: -200px;
+        
+        }
 }
 @media screen 
   and (device-width: 360px) 
@@ -863,7 +867,8 @@ and (max-device-width: 480px) {
         margin-left: 3%;
         }
         .carousel {
-            margin-top: -100px;
+            margin-top: -200px;
         
         }
+ 
 }
