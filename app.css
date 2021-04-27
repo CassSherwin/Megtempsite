@@ -854,7 +854,7 @@ and (max-device-width: 480px) {
         margin-left: 3%;
         }
         .carousel {
-            margin-top: 20px;
+            margin-top: -350px;
         
         }
 }
@@ -867,7 +867,7 @@ and (max-device-width: 480px) {
         margin-left: 3%;
         }
         .carousel {
-            margin-top: 20px;
+            margin-top: -350px;
         
         }
  
