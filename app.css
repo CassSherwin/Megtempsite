@@ -787,6 +787,10 @@ and (max-device-width: 480px) {
    
 
  }
+ .patdiv {
+    width: 100vw;
+    height: 100vh;
+ }
  .nametest { 
     font-size: 4vh;
     margin-left: 3%;
@@ -839,6 +843,16 @@ and (max-device-width: 480px) {
         margin-top: 100px;
         padding-bottom: 5px;
 }
+.megdiv {
+    width: 100vw;
+    height: 85vh;
+    padding-top:5%;
+ }
+ .patdiv {
+    width: 100vw;
+    height: 100vh;
+ }
+  }
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
@@ -871,6 +885,17 @@ and (max-device-width: 480px) {
         .navbar-nav {
             background-color: rgb(58, 159, 214);
         }
+        .patdiv {
+            width: 100vw;
+            height: 100vh;
+         }
+         .megdiv {
+            width: 100vw;
+            height: 85vh;
+            padding-top:5%;
+           
+        
+         }
 }
 @media screen 
   and (device-width: 360px) 
@@ -889,5 +914,16 @@ and (max-device-width: 480px) {
         .navbar-nav {
             background-color: rgb(58, 159, 214);
         }
+        .patdiv {
+            width: 100vw;
+            height: 100vh;
+         }
+         .megdiv {
+            width: 100vw;
+            height: 85vh;
+            padding-top:5%;
+           
+        
+         }
      
 }
