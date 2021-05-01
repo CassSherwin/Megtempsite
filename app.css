@@ -1212,8 +1212,143 @@ and (orientation: landscape) {
         width: 100vw;
         height: 95vh;
         padding-top:5%;
-       
-    
      }
 
+}
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+ }
+
+@media only screen and (min-width: 360px) {
+        .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+ }
+
+@media only screen and (min-height: 640px) { 
+        .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+}
+
+@media only screen and (min-width: 640px) and (orientation: landscape) {
+        .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+ }
+
+@media only screen and (min-width: 360px) and (orientation: portrait) {
+        .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+ }
+
+@media only screen and (min-device-width: 360px) and (orientation: portrait) { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+}
+@media only screen and (min-device-width: 640px) and (orientation: landscape) { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+ }
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 4.0),
+  only screen and (   min--moz-device-pixel-ratio: 4.0),
+  only screen and (     -o-min-device-pixel-ratio: 4.0/1),
+  only screen and (        min-device-pixel-ratio: 4.0),
+  only screen and (                min-resolution: 577dpi),
+  only screen and (                min-resolution: 4.0dppx) { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+}
+
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+}
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (   min--moz-device-pixel-ratio: 3),
+  only screen and (     -o-min-device-pixel-ratio: 3/1),
+  only screen and (        min-device-pixel-ratio: 3),
+  only screen and (                min-resolution: 384dpi),
+  only screen and (                min-resolution: 3dppx) { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
 }
