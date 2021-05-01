@@ -927,3 +927,55 @@ and (max-device-width: 480px) {
          }
      
 }
+@media (min-width:320px)  {     
+    .patdiv {
+    width: 100vw;
+    height: 100vh;
+ }
+ .megdiv {
+    width: 100vw;
+    height: 95vh;
+    padding-top:5%;
+   
+
+ }
+}
+@media (min-width:480px)  { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+       
+    
+     }
+}
+@media (min-width:320px)  { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+       
+    
+     }
+}
+@media (min-width:481px)  { 
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+       
+    
+     }
+ }
