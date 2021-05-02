@@ -1352,3 +1352,74 @@ and (orientation: landscape) {
         padding-top:5%;
      }
 }
+
+/*Galaxy S7 and S8 */
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px){
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+
+}
+/* samsung s7 portrait */
+@media 
+    (-webkit-min-device-pixel-ratio: 3)
+    and (min-resolution: 192dpi)and (max-device-width : 640px){
+        .patdiv {
+            width: 100vw;
+            height: 100vh;
+         }
+         .megdiv {
+            width: 100vw;
+            height: 95vh;
+            padding-top:5%;
+         }
+
+}
+
+/* samsung s7 landscape*/
+@media 
+    (-webkit-min-device-pixel-ratio: 3) 
+    and (min-resolution: 192dpi){
+        .patdiv {
+            width: 100vw;
+            height: 100vh;
+         }
+         .megdiv {
+            width: 100vw;
+            height: 95vh;
+            padding-top:5%;
+         }
+
+}
+@media only screen 
+   and (max-width : 1440px) 
+   and (max-height : 2560px) {
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+}
+@media only screen 
+   and (max-width : 1440px) 
+   and (max-height : 2560px) {
+    .patdiv {
+        width: 100vw;
+        height: 100vh;
+     }
+     .megdiv {
+        width: 100vw;
+        height: 95vh;
+        padding-top:5%;
+     }
+}
